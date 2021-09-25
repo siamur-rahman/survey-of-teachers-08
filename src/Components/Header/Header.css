@@ -1,0 +1,16 @@
+
+
+.header{
+   margin: 15px;
+   align-items: center;
+   justify-content: center;
+   background-color: rgba(137, 43, 226, 0.418);
+   padding: 20px;
+   color: gray;
+  
+}
+
+.budget{
+   font-size: 20px;
+   font-weight:500;
+}
