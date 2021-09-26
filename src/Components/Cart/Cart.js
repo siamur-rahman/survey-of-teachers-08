@@ -22,7 +22,7 @@ const Cart = (props) => {
       <div className="cart">
          <h2>Teachers Added:{props.cart.length}</h2>
          <p><b> Total Cost:</b> $ {total}</p>
-         <p>names:{addname}</p>
+         <p><b>names:</b>{addname}</p>
          <div className="btn-cart-div">         <button className="cart-btn"> <FontAwesomeIcon icon={faInfoCircle} /> Teacher info</button></div>
       </div>
    );
