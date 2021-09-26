@@ -1,5 +1,5 @@
 # Getting Started with a survey of "Teachers"
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://determined-hoover-4a2684.netlify.app/).
 
 ## About this site
 
