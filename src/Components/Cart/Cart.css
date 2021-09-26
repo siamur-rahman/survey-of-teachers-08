@@ -3,6 +3,7 @@
    margin: 5px;
    margin-bottom:15px ;
    padding: 10px;
+   font-weight: 500;
 }
 .btn-cart-div{
    display:flex;
@@ -11,6 +12,7 @@
 }
 .cart-btn{
    background-color: lightpink;
+   font-weight:800;
    padding: 10px;
    margin-bottom: 5px;
    border: gray;
@@ -18,6 +20,8 @@
 }
 .cart-btn:hover{
    background-color: rgb(4, 80, 35);
+   color: white;
+   
    padding: 10px;
    
 }

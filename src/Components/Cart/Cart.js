@@ -1,4 +1,7 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faInfoCircle } from '@fortawesome/free-solid-svg-icons';
+
 import './Cart.css';
 
 const Cart = (props) => {
@@ -11,8 +14,8 @@ const Cart = (props) => {
    return (
       <div className="cart">
          <h2>Teachers Added:{props.cart.length}</h2>
-         <p><b> Total Cost:</b>${total}</p>
-         <div className="btn-cart-div">         <button className="cart-btn">Teacher Details</button></div>
+         <p><b> Total Cost:</b> $ {total}</p>
+         <div className="btn-cart-div">         <button className="cart-btn"> <FontAwesomeIcon icon={faInfoCircle} /> Teacher Details</button></div>
       </div>
    );
 };
