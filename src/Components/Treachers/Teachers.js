@@ -13,7 +13,13 @@ const Teachers = () => {
 
    }, [])
 
+   const [cart, setCart] = useState([]);
 
+
+   const handleAddToCart = (teacher) => {
+      const newCart = [...cart, teacher];
+      setCart(newCart)
+   }
 
    return (
       <div>
@@ -25,13 +31,18 @@ const Teachers = () => {
                   teachers.map(teacher => <Teacher
                      key={teacher.id}
                      teacher={teacher}
+                     handleAddToCart={handleAddToCart}
                   >
                   </Teacher>)
                }
             </div>
             <div>
+               {/* <h2>cart:{cart.length}</h2> */}
+               <Cart
 
-               <Cart></Cart>
+                  cart={cart}
+
+               ></Cart>
             </div>
          </div>
       </div >

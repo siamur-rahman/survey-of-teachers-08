@@ -4,7 +4,7 @@
 import './Teacher.css';
 
 const Teacher = (props) => {
-   console.log(props);
+   // console.log(props);
    const { name, age, subjects, picture, salary, joining_year } = props.teacher;
 
 
@@ -21,7 +21,10 @@ const Teacher = (props) => {
             <h3 >subject: {subjects}</h3>
             <h3 >salary: {salary}</h3>
             <h5 >joined:{joining_year}</h5>
-            <button className="btn-regular">add to cart</button>
+            <button
+               onClick={() => props.handleAddToCart(props.teacher)}
+               className="btn-regular"
+            >add to cart</button>
          </div>
       </div>
    );
