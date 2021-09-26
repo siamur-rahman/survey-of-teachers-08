@@ -17,6 +17,7 @@
    margin-bottom: 5px;
    border: gray;
    border-radius: 10px;
+   cursor: pointer;
 }
 .cart-btn:hover{
    background-color: rgb(4, 80, 35);

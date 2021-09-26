@@ -1,6 +1,6 @@
 .teachr{
   
-   background-color: rgba(0, 92, 128, 0.541);
+   background-color: rgba(0, 92, 128, 0.425);
    color: white;
    margin-left: 10px;
    margin-bottom: 10px;
@@ -45,6 +45,7 @@
    border: gray;
    border-radius: 10px;
    width: 100px;
+   cursor: pointer;
 }
 .btn-regular:hover{
    background-color: rgb(4, 80, 35);
