@@ -3,6 +3,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
+* i have used
+
 In the project directory, you can run:
 
 ### `npm start`
