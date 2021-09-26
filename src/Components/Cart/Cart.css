@@ -1,0 +1,23 @@
+.cart{
+   background-color: rgba(0, 128, 6, 0.281);
+   margin: 5px;
+   margin-bottom:15px ;
+   padding: 10px;
+}
+.btn-cart-div{
+   display:flex;
+   justify-content: center;
+   
+}
+.cart-btn{
+   background-color: lightpink;
+   padding: 10px;
+   margin-bottom: 5px;
+   border: gray;
+   border-radius: 10px;
+}
+.cart-btn:hover{
+   background-color: rgb(4, 80, 35);
+   padding: 10px;
+   
+}

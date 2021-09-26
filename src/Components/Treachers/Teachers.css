@@ -1,13 +1,9 @@
 .teachers{
-   color: blue;
-  
-   border: 3px solid rebeccapurple;
    display: grid;
    grid-template-columns: 3fr 1fr;
 }
 
 .teacher{
-
    display: grid;
    grid-template-columns: repeat(3,1fr);
 }
