@@ -4,8 +4,16 @@
    margin: 15px;
    border: 2px solid yellow;
 }
+.images{
+   width:100%;
+}
+.images img{
+   width: 100%;
+}
 
-
+.teachers-detail{
+   width: 100%;
+}
 .btn-regular{
    background-color: lightpink;
    padding: 5px;
